@@ -1,0 +1,12 @@
+<span>
+  <header>
+    <h1>Calculadora de metabolismo basal</h1>
+  </header>
+  <nav>
+    <ul *ngIf="currentRout !== '/'">
+      <li><a routerLink="metabolism-calculator" routerLinkActive="active">Calculo do Metabolismo</a></li>
+      <!-- <li><a routerLink="macro-calculator" routerLinkActive="active">Calculo de Macros</a></li> -->
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+</span>
